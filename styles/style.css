@@ -337,6 +337,8 @@ header {
     .text1 {
         width: 70%;
         height: 250px;
+        position: relative;
+        bottom: 300px;
     }
 
     .p1 {
@@ -426,7 +428,7 @@ header {
         position: relative;
         right: 100px;
         bottom: 0;
-        top: 80px;
+        top: 70px;
     }
 
     .text2 {
@@ -435,7 +437,7 @@ header {
         padding-bottom: 0px;
         padding-left: 0px;
         position: relative;
-        bottom: 10px;
+        bottom: 30px;
     }
 
     .p2 {
