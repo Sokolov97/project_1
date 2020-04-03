@@ -317,7 +317,7 @@ header {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        height: 600px;
+        height: 550px;
     }
 
     .section1 img {
@@ -478,7 +478,26 @@ header {
         outline: none;
         position: relative;
         top: 30px;
-        left: 40px;
+        left: 10%;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .section2 button {
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        background-color: rgba(185, 222, 216, 0);
+        width: 200px;
+        height: 50px;
+        outline: none;
+        position: relative;
+        top: 30px;
+        left: 35%;
         color: rgb(255, 255, 255);
         font-size: 25px;
         text-align: center;
