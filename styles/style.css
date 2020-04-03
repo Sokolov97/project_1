@@ -338,7 +338,7 @@ header {
         width: 70%;
         height: 250px;
         position: relative;
-        bottom: 300px;
+        bottom: 0px;
     }
 
     .p1 {
